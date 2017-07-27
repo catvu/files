@@ -26,12 +26,8 @@ The migration path from version 1 to version 2 is not clearly too.
   
 #### ReactJS
 ReactJS is completely different from Angular 1. So, it will take a big effort to study and convert the code. 
-Moreover, it's difficult to make the 'baby steps' for gradually migration. 
-
-AngularJS is based on templating system (HTML-based) while ReactJS is based on JSX (JS-based). 
-These two guys are hard to live together in the same project. 
-
-Another reason is that, in my opinion, JSX is pretty lengthy.
+Moreover, it's difficult to make the 'baby steps' for gradually migration. AngularJS is based on templating system (HTML-based) while ReactJS is based on JSX (JS-based). 
+These two guys are hard to live together in the same project. Another reason is, in my opinion, JSX is pretty lengthy.
   
 #### EmberJS
 EmberJS is the framework for SPA. It's not JS library.
@@ -42,7 +38,7 @@ HTML template engine of VueJS is nearly the same to Angular 1. So, converting co
 VueJS and Angular 1 can live together. So, it's possible for applying the changes steadily. 
 This will reduce the risk of mistake making as well as the pressure from code migration.
 
-Like ReactJS, VueJS uses 1-way data binding. This fixes problem of 2-ways data binding in Angular 1.
+Like ReactJS, VueJS uses 1-way data binding. This fixes the problem of 2-ways data binding in Angular 1.
 
 Vue documentation is extremely good (important point).
 
